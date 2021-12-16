@@ -10,7 +10,7 @@ let children = 0
 
 // TODO: Write your functions in the below section. Your functions should update
 // the adults and children variables defined above.
-function enter (numChildren, numAdults) {
+function enter (numAdults, numChildren) {
   if (numChildren > numAdults) {
     return false
   }
@@ -19,7 +19,19 @@ function enter (numChildren, numAdults) {
   return true
 }
 
-function leave (numChildren, numAdults) {
+function leave (numAdults, numChildren) {
+  if (numAdults > numChildren) {
+    
+  
+
+  
+   
+
+  adults -= adults
+  children = numChildren
+  return true
+  }
+  return false
 
 }
 
